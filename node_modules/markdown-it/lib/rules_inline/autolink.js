@@ -4,31 +4,24 @@
 
 
 /*eslint max-len:0*/
-var EMAIL_RE    = /^([a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*)$/;
-var AUTOLINK_RE = /^([a-zA-Z][a-zA-Z0-9+.\-]{1,31}):([^<>\x00-\x20]*)$/;
+var EMAIL_RE    = /^<([a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*)>/;
+var AUTOLINK_RE = /^<([a-zA-Z][a-zA-Z0-9+.\-]{1,31}):([^<>\x00-\x20]*)>/;
 
 
 module.exports = function autolink(state, silent) {
-  var url, fullUrl, token, ch, start, max,
+  var tail, linkMatch, emailMatch, url, fullUrl, token,
       pos = state.pos;
 
   if (state.src.charCodeAt(pos) !== 0x3C/* < */) { return false; }
 
-  start = state.pos;
-  max = state.posMax;
+  tail = state.src.slice(pos);
 
-  for (;;) {
-    if (++pos >= max) return false;
+  if (tail.indexOf('>') < 0) { return false; }
 
-    ch = state.src.charCodeAt(pos);
+  if (AUTOLINK_RE.test(tail)) {
+    linkMatch = tail.match(AUTOLINK_RE);
 
-    if (ch === 0x3C /* < */) return false;
-    if (ch === 0x3E /* > */) break;
-  }
-
-  url = state.src.slice(start + 1, pos);
-
-  if (AUTOLINK_RE.test(url)) {
+    url = linkMatch[0].slice(1, -1);
     fullUrl = state.md.normalizeLink(url);
     if (!state.md.validateLink(fullUrl)) { return false; }
 
@@ -46,11 +39,14 @@ module.exports = function autolink(state, silent) {
       token.info    = 'auto';
     }
 
-    state.pos += url.length + 2;
+    state.pos += linkMatch[0].length;
     return true;
   }
 
-  if (EMAIL_RE.test(url)) {
+  if (EMAIL_RE.test(tail)) {
+    emailMatch = tail.match(EMAIL_RE);
+
+    url = emailMatch[0].slice(1, -1);
     fullUrl = state.md.normalizeLink('mailto:' + url);
     if (!state.md.validateLink(fullUrl)) { return false; }
 
@@ -68,7 +64,7 @@ module.exports = function autolink(state, silent) {
       token.info    = 'auto';
     }
 
-    state.pos += url.length + 2;
+    state.pos += emailMatch[0].length;
     return true;
   }
 

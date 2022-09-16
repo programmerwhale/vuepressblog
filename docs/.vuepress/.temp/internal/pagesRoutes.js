@@ -1,8 +1,9 @@
 export const pagesRoutes = [
-  ["v-8daa1a0e","/",{"title":"一级标题"},["/index.html","/README.md"]],
+  ["v-8daa1a0e","/",{"title":""},["/index.html","/README.md"]],
   ["v-70bc2959","/algorithm/",{"title":"一级标题"},["/algorithm/index.html","/algorithm/README.md"]],
   ["v-551bb614","/backend/",{"title":"一级标题"},["/backend/index.html","/backend/README.md"]],
   ["v-8583e374","/frontend/markdown.html",{"title":"markdown语法"},["/frontend/markdown","/frontend/markdown.md"]],
+  ["v-fffb8e28","/guide/",{"title":"一级标题"},["/guide/index.html","/guide/README.md"]],
   ["v-14e6315a","/life/",{"title":"一级标题"},["/life/index.html","/life/README.md"]],
   ["v-25b47c13","/others/",{"title":"一级标题"},["/others/index.html","/others/README.md"]],
   ["v-1cfbe34a","/source/",{"title":"一级标题"},["/source/index.html","/source/README.md"]],

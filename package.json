@@ -1,27 +1,12 @@
 {
-  "name": "vuepress_programmerwhale",
-  "version": "1.0.0",
-  "description": "vuepress_whale",
-  "main": "index.js",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
     "deploy": "bash deploy.sh"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/programmerwhale/programmerwhale111.github.io.git"
-  },
-  "keywords": [
-    "blog"
-  ],
-  "author": "programmerwhale",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/programmerwhale/programmerwhale111.github.io/issues"
-  },
-  "homepage": "https://github.com/programmerwhale/programmerwhale111.github.io#readme",
   "devDependencies": {
-    "vuepress": "^2.0.0-beta.51"
+    "@vuepress/plugin-active-header-links": "^1.9.7",
+    "@vuepress/plugin-blog": "^1.9.4",
+    "vuepress": "^1.9.7"
   }
 }

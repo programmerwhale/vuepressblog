@@ -7,6 +7,8 @@ export const pagesData = {
   "v-551bb614": () => import(/* webpackChunkName: "v-551bb614" */"E:/vuepress_programmerwhale/docs/.vuepress/.temp/pages/backend/index.html.js").then(({ data }) => data),
   // path: /frontend/markdown.html
   "v-8583e374": () => import(/* webpackChunkName: "v-8583e374" */"E:/vuepress_programmerwhale/docs/.vuepress/.temp/pages/frontend/markdown.html.js").then(({ data }) => data),
+  // path: /guide/
+  "v-fffb8e28": () => import(/* webpackChunkName: "v-fffb8e28" */"E:/vuepress_programmerwhale/docs/.vuepress/.temp/pages/guide/index.html.js").then(({ data }) => data),
   // path: /life/
   "v-14e6315a": () => import(/* webpackChunkName: "v-14e6315a" */"E:/vuepress_programmerwhale/docs/.vuepress/.temp/pages/life/index.html.js").then(({ data }) => data),
   // path: /others/
