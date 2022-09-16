@@ -3,6 +3,6 @@ home: true
 heroImage: logo.png
 tagline: 
 actionText: Start →
-actionLink: /guide/
+actionLink: /frontend/markdown/
 footer: jingyushan © 2022
 ---

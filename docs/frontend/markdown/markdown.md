@@ -177,7 +177,7 @@ $(document).ready(function () {
 | 单元格 | 单元格 | 单元格 |
 | 单元格 | 单元格 | 单元格 |
 
-# markdown拓展
+## markdown拓展
 >参考：<https://www.vuepress.cn/guide/markdown.html#header-anchors>
 
 ## Emoji
@@ -204,7 +204,3 @@ emoji列表 :point_down:
 这是一个可展开详情块，在 IE / Edge 中不生效
 :::
 ```
-
-# 一些踩过的坑以及解决办法
-
-## dsadf
