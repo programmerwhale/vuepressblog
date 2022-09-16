@@ -15,7 +15,7 @@ module.exports = {
           {text: 'Home', link: '/' },
           {text: '前端相关', 
           items:[
-              {text: 'Markdown',link:'/frontend/markdown/'},
+              {text: 'Markdown',link:'/frontend/markdown/markdown.md'},
               {text: 'Vuepress',link:'/frontend/vuepress/'},
           ]},
           {text: '后端语言',items:[
