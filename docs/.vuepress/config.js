@@ -30,6 +30,11 @@ module.exports = {
           { text: "Redis", link:"/csbasic/redis/"},
           ]},
           {text: '算法题库', link: '/algorithm/'},
+          {text: '工具', 
+          items:[
+              {text: 'Markdown',link:'/tools/markdown/markdown.md'},
+              {text: 'git',link:'/frontend/markdown/markdown.md'},
+          ]},
           {text: '学习资源', link: '/source/'},
           {text: '生活', link: '/life/'},
           {text: '其他', link: '/others/'},  
