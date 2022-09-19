@@ -15,25 +15,26 @@ module.exports = {
           {text: 'Home', link: '/' },
           {text: '前端相关', 
           items:[
-              {text: 'Markdown',link:'/frontend/markdown/markdown.md'},
               {text: 'Vuepress',link:'/frontend/vuepress/'},
           ]},
           {text: '后端语言',items:[
-            {text: 'Asp.Net Core',link:'/backend/aspnetcore/'},
+            {text: 'Asp.Net Core',link:'/backend/aspnetcore/workopt.md'},
             {text: 'Go',link:'/backend/go/'},
             {text: 'Java',link:'/backend/java/'}
           ]},
           {text: '八股文', 
           items: [ 
-          { text: "网络", link:"/csbasic/net/"},
-          { text: "Mysql", link:"/csbasic/mysql/"},
-          { text: "Redis", link:"/csbasic/redis/"},
+          { text: "网络", link:"/csbase/net/net.md"},
+          { text: "操作系统", link:"/csbase/os/os.md"},
+          { text: "Mysql", link:"/csbase/mysql/mysql.md"},
+          { text: "Redis", link:"/csbase/redis/redis.md"},
+          { text: "Linux", link:"/csbase/linux/linux.md"},
           ]},
-          {text: '算法题库', link: '/algorithm/'},
+          {text: '算法题库', link: '/algorithm/leetcode.md'},
           {text: '工具', 
           items:[
               {text: 'Markdown',link:'/tools/markdown/markdown.md'},
-              {text: 'git',link:'/frontend/markdown/markdown.md'},
+              {text: 'git',link:'/tools/git/'},
           ]},
           {text: '学习资源', link: '/source/'},
           {text: '生活', link: '/life/'},
@@ -42,7 +43,7 @@ module.exports = {
         ],
         //sidebar: 'auto', // 侧边栏配置
         sidebar: {
-          '/frontend/markdown/':[
+          '/tools/markdown/':[
             'markdown',
             'bugs'
           ],
@@ -50,8 +51,14 @@ module.exports = {
             'vuepress',
             'bugs'
           ],
+          '/csbase//csbase/redis/':[
+            'redis',
+          ],
+          '/csbase//csbase/net/':[
+            'net',
+          ],
         },
-        sidebarDepth: 3, // 侧边栏显示2级
+        sidebarDepth: 3, // 侧边栏显示3级
       },
       plugins: [
         '@vuepress/active-header-links', 
