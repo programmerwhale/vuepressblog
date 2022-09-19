@@ -1,5 +1,7 @@
 # markdown语法
 
+>本文参考：菜鸟教程
+
 ## markdown标题
 1、使用 = 和 - 标记一级和二级标题
 ```md
@@ -152,6 +154,24 @@ $(document).ready(function () {
 
 2.`<链接地址>`  
 <https://www.runoob.com>
+
+3. 内嵌链接
+
+```md
+这个链接用 1 作为网址变量 [Google][1]
+这个链接用 runoob 作为网址变量 [Runoob][runoob]
+然后在文档的结尾为变量赋值（网址）
+
+  [1]: http://www.google.com/
+  [runoob]: http://www.runoob.com/
+```
+
+这个链接用 1 作为网址变量 [Google][1]
+这个链接用 runoob 作为网址变量 [Runoob][runoob]
+然后在文档的结尾为变量赋值（网址）
+
+  [1]: http://www.google.com/
+  [runoob]: http://www.runoob.com/
 
 ## markdown 图片
 ```md

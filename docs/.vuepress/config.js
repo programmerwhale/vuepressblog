@@ -48,8 +48,14 @@ module.exports = {
         },
         sidebarDepth: 3, // 侧边栏显示2级
       },
-      plugins: ['@vuepress/active-header-links', {
-        sidebarLinkSelector: '.sidebar-link',
-        headerAnchorSelector: '.header-anchor'
-      }]
+      plugins: [
+        '@vuepress/active-header-links', 
+        '@vuepress/back-to-top',
+        '@vuepress/blog',
+        '@vuepress/last-updated',
+        {
+          sidebarLinkSelector: '.sidebar-link',
+          headerAnchorSelector: '.header-anchor',
+        },
+      ]
      };// .vuepress/theme/index.js
