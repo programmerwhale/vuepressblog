@@ -5,9 +5,6 @@
  __思维导图连接:[https://www.mubucm.com/doc/ZQ6Tpszfco][2]__
 
 
-
- ![1](./screenshot/Redis.png)
-
  
 [1]:https://xiaolincoding.com/
 [2]:https://www.mubucm.com/doc/ZQ6Tpszfco

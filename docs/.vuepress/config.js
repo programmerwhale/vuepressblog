@@ -34,7 +34,7 @@ module.exports = {
           {text: '工具', 
           items:[
               {text: 'Markdown',link:'/tools/markdown/markdown.md'},
-              {text: 'git',link:'/tools/git/'},
+              {text: 'git',link:'/tools/git/git.md'},
           ]},
           {text: '学习资源', link: '/source/'},
           {text: '生活', link: '/life/'},
@@ -51,11 +51,23 @@ module.exports = {
             'vuepress',
             'bugs'
           ],
-          '/csbase//csbase/redis/':[
+          '/csbase/redis/':[
             'redis',
           ],
-          '/csbase//csbase/net/':[
+          '/csbase/net/':[
             'net',
+          ],
+          '/csbase/linux/':[
+            'linux',
+          ],
+          '/csbase/os/':[
+            'os',
+          ],
+          '/csbase/mysql/':[
+            'mysql',
+          ],
+          '/tools/git/':[
+            'git',
           ],
         },
         sidebarDepth: 3, // 侧边栏显示3级
