@@ -7,13 +7,13 @@
 
  ![1](./screenshot/MySQL.png)
 
- ![2](./screenshot/基础篇.png)
+ ![基础篇](./screenshot/base.png)
 
- ![3](./screenshot/索引篇.png)
+ ![索引篇](./screenshot/index.png)
 
- ![4](./screenshot/MySQL其他.png)
+ ![MySQL其他](./screenshot/others.png)
 
- ![5](./screenshot/日志.png)
+ ![日志](./screenshot/log.png)
 
 
 [1]:https://xiaolincoding.com/

@@ -5,15 +5,15 @@
 
  __思维导图连接:[https://www.mubucm.com/doc/I6SN80Brr8][1]__
 
- ![1](./screenshot/《Redis设计与实现》.png)
+ ![1](./screenshot/total.png)
 
- ![2](./screenshot/数据结构与对象-概.png)
+ ![2](./screenshot/part1.png)
 
- ![3](./screenshot/数据结构与对象-详.png)
+ ![3](./screenshot/part1-1.png)
 
- ![4](./screenshot/单机数据库的实现-概.png)
+ ![4](./screenshot/part2.png)
 
- ![5](./screenshot/单机数据库的实现-详.png)
+ ![5](./screenshot/part2-1.png)
 
 to be continue...
 

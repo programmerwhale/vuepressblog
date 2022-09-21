@@ -57,3 +57,12 @@ __修改主题颜色成功。__
 
 [1]:https://www.vuepress.cn/plugin/official/plugin-blog.html
 [2]:https://vuepress-theme-blog.billyyyyy3320.com/config/palette.html
+
+
+## vuepress图片不加载
+
+![wrongpath](./screenshot/wrongpath.png)
+
+__解决办法：图片名称改成英文__
+
+如果整个md文件中一个图片的路径错误，整个页面都不显示。

@@ -1452,7 +1452,7 @@
 
 "@vuepress/plugin-active-header-links@1.9.7", "@vuepress/plugin-active-header-links@^1.9.7":
   version "1.9.7"
-  resolved "https://registry.npmmirror.com/@vuepress/plugin-active-header-links/-/plugin-active-header-links-1.9.7.tgz"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-active-header-links/-/plugin-active-header-links-1.9.7.tgz#11b3b148d50ebd0a9a9d9e97aa34d81ae04e7307"
   integrity sha512-G1M8zuV9Og3z8WBiKkWrofG44NEXsHttc1MYreDXfeWh/NLjr9q1GPCEXtiCjrjnHZHB3cSQTKnTqAHDq35PGA==
   dependencies:
     "@vuepress/types" "1.9.7"
@@ -1466,9 +1466,23 @@
     "@vuepress/types" "1.9.7"
     lodash.debounce "^4.0.8"
 
-"@vuepress/plugin-blog@^1.9.2", "@vuepress/plugin-blog@^1.9.4":
+"@vuepress/plugin-blog@^1.9.2":
   version "1.9.4"
   resolved "https://registry.npmmirror.com/@vuepress/plugin-blog/-/plugin-blog-1.9.4.tgz"
+  integrity sha512-7A4Y3mYrSOUKdzsTjeVOKt0XgZ0m1Iqq7BeZn7y9YeZfDcZ4Fx6UldsPfK2+THwtYwGzQ7Not3zO8djyk7z3ew==
+  dependencies:
+    "@vssue/api-github-v3" "^1.1.2"
+    "@vssue/vuepress-plugin-vssue" "^1.2.0"
+    dayjs "^1.10.3"
+    vuejs-paginate "^2.1.0"
+    vuepress-plugin-disqus "^0.2.0"
+    vuepress-plugin-feed "^0.1.8"
+    vuepress-plugin-mailchimp "^1.4.1"
+    vuepress-plugin-sitemap "^2.3.1"
+
+"@vuepress/plugin-blog@^1.9.4":
+  version "1.9.4"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-blog/-/plugin-blog-1.9.4.tgz#34636d0387d28221c9f2564b6255786da0dd186a"
   integrity sha512-7A4Y3mYrSOUKdzsTjeVOKt0XgZ0m1Iqq7BeZn7y9YeZfDcZ4Fx6UldsPfK2+THwtYwGzQ7Not3zO8djyk7z3ew==
   dependencies:
     "@vssue/api-github-v3" "^1.1.2"
