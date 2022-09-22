@@ -18,7 +18,7 @@ module.exports = {
               {text: 'Vuepress',link:'/frontend/vuepress/'},
           ]},
           {text: '后端语言',items:[
-            {text: 'Asp.Net Core',link:'/backend/aspnetcore/workopt.md'},
+            {text: 'Asp.Net Core',link:'/backend/aspnetcore/aspnetcore.md'},
             {text: 'Go',link:'/backend/go/'},
             {text: 'Java',link:'/backend/java/'}
           ]},
@@ -34,7 +34,9 @@ module.exports = {
           {text: '工具', 
           items:[
               {text: 'Markdown',link:'/tools/markdown/markdown.md'},
-              {text: 'git',link:'/tools/git/git.md'},
+              {text: 'Git',link:'/tools/git/git.md'},
+              {text: 'Mac',link:'/tools/mac/mac.md'},
+              {text: 'Notion',link:'/tools/notion/notion.md'},
           ]},
           {text: '学习资源', link: '/source/'},
           {text: '生活', link: '/life/'},
@@ -50,6 +52,10 @@ module.exports = {
           '/frontend/vuepress/':[
             'vuepress',
             'bugs'
+          ],
+          '/backend/aspnetcore/':[
+            'aspnetcore',
+            'workopt'
           ],
           '/csbase/redis/':[
             'redis',
@@ -68,6 +74,12 @@ module.exports = {
           ],
           '/tools/git/':[
             'git',
+          ],
+          '/tools/mac/':[
+            'mac',
+          ],
+          '/tools/notion/':[
+            'notion',
           ],
         },
         sidebarDepth: 3, // 侧边栏显示3级

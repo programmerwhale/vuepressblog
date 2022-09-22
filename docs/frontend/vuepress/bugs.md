@@ -55,8 +55,6 @@ $MQMobileNarrow = 419px
 
 __修改主题颜色成功。__
 
-[1]:https://www.vuepress.cn/plugin/official/plugin-blog.html
-[2]:https://vuepress-theme-blog.billyyyyy3320.com/config/palette.html
 
 
 ## vuepress图片不加载
@@ -69,6 +67,8 @@ __解决办法：图片名称改成英文__
 
 
 ## build报错error Command failed with exit code 1.
+
+> to do
 
 https://blog.csdn.net/m0_54853146/article/details/123345413
 
@@ -117,3 +117,16 @@ yarn : 无法加载文件 E:\nodejs\node_global\yarn.ps1，因为在此系统上
 https://blog.csdn.net/jianghuafeng0/article/details/123105044
 
 解决了
+
+
+
+
+
+
+
+
+
+
+
+[1]:https://www.vuepress.cn/plugin/official/plugin-blog.html
+[2]:https://vuepress-theme-blog.billyyyyy3320.com/config/palette.html
