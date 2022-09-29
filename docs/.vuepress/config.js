@@ -15,12 +15,12 @@ module.exports = {
           {text: 'Home', link: '/' },
           {text: '前端相关', 
           items:[
-              {text: 'Vuepress',link:'/frontend/vuepress/'},
+              {text: 'Vuepress',link:'/frontend/vuepress/vuepress.md'},
           ]},
           {text: '后端语言',items:[
             {text: 'Asp.Net Core',link:'/backend/aspnetcore/aspnetcore.md'},
-            {text: 'Go',link:'/backend/go/'},
-            {text: 'Java',link:'/backend/java/'}
+            {text: 'Go',link:'/backend/go/go.md'},
+            {text: 'Java',link:'/backend/java/java.md'}
           ]},
           {text: '八股文', 
           items: [ 
@@ -39,8 +39,6 @@ module.exports = {
               {text: 'Notion',link:'/tools/notion/notion.md'},
           ]},
           {text: '学习资源', link: '/source/'},
-          {text: '生活', link: '/life/'},
-          {text: '其他', link: '/others/'},  
           {text: 'Github', link: 'https://github.com/programmerwhale/vuepressblog'}
         ],
         //sidebar: 'auto', // 侧边栏配置
@@ -55,7 +53,8 @@ module.exports = {
           ],
           '/backend/aspnetcore/':[
             'aspnetcore',
-            'workopt'
+            'workopt',
+            'README'
           ],
           '/csbase/redis/':[
             'redis',
