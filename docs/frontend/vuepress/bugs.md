@@ -118,6 +118,24 @@ https://blog.csdn.net/jianghuafeng0/article/details/123105044
 
 解决了
 
+## 本地dev是本地只展示了目录，正文空白
+
+打开f12调试后发现报错内容
+
+![emptypage](./screenshot/emptypage.jpg)
+
+查看代码后发现罪魁祸首：
+
+![emptypage](./screenshot/emptypage_reason.jpeg)
+
+```
+Task<T>
+```
+
+可能是和markdown语法有冲突，所以把这段作为行内代码引起来。
+
+
+![emptypage](./screenshot/emptypage_solution.jpg)
 
 
 

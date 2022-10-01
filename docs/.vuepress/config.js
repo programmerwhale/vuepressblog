@@ -53,8 +53,8 @@ module.exports = {
           ],
           '/backend/aspnetcore/':[
             'aspnetcore',
+            'book1',
             'workopt',
-            'README'
           ],
           '/csbase/redis/':[
             'redis',
