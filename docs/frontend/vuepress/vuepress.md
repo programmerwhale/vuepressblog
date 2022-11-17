@@ -56,7 +56,20 @@ npm run deploy
 
 
 
+### Vuepress插件
 
+**安装：**
+```
+yarn add -D @vuepress/plugin-medium-zoom
+# npm install -D @vuepress/plugin-medium-zoom
+```
+
+**使用：**
+```
+plugins: [
+    "@vuepress/plugin-medium-zoom"
+],
+```
 
 
 

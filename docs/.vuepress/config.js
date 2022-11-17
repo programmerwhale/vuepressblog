@@ -88,6 +88,7 @@ module.exports = {
         '@vuepress/back-to-top',
         '@vuepress/blog',
         '@vuepress/last-updated',
+        "@vuepress/plugin-medium-zoom",
         {
           sidebarLinkSelector: '.sidebar-link',
           headerAnchorSelector: '.header-anchor',
