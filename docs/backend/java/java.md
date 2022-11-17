@@ -36,4 +36,8 @@
 
 [Method breakpoints may dramatically slow down debugging 解决]:[https://blog.csdn.net/weixin_38084097/article/details/111310067]
 
-[IDEA项目结构出现 0% methods,0% lines covered]:[https://blog.csdn.net/qq_38132901/article/details/83789145]
+[IDEA项目结构出现 0% methods,0% lines covered]:[https://blog.csdn.net/qq_38132901/article/details/83789145][IDEA项目结构出现 0% methods,0% lines covered]:[https://blog.csdn.net/qq_38132901/article/details/83789145][IDEA项目结构出现 0% methods,0% lines covered]:[https://blog.csdn.net/qq_38132901/article/details/83789145][IDEA项目结构出现 0% methods,0% lines covered]:[https://blog.csdn.net/qq_38132901/article/details/83789145]
+# Java
+
+##  环境配置问题
+https://blog.csdn.net/weixin_66598341/article/details/126510900
