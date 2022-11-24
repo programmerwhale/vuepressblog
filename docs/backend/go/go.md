@@ -6,7 +6,16 @@
 
 **golang 读取yaml配置文件中的数据 两种方式：yaml.v2 和 Viper：**[https://blog.csdn.net/m0_51232338/article/details/126307248]
 
+
+https://blog.csdn.net/sphinx1122/article/details/117395530
+
 ****
 [https://www.jianshu.com/p/c0357556cdca]:[https://www.jianshu.com/p/c0357556cdca]
 
 [https://blog.csdn.net/m0_51232338/article/details/126307248]:[https://blog.csdn.net/m0_51232338/article/details/126307248]
+
+
+**引用viper时编译报错：package io/fs is not in GOROOT**
+
+升级go版本到1.16
+https://blog.csdn.net/ic_xcc/article/details/119828678
