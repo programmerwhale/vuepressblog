@@ -56,6 +56,10 @@ module.exports = {
             'book1',
             'workopt'
           ],
+          '/backend/go/':[
+            'go',
+            'bugs'
+          ],
           '/csbase/redis/':[
             'redis',
           ],
