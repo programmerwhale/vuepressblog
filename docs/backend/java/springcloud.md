@@ -49,3 +49,13 @@
 
 7. mybatis使用注解查询获取不到参数，直接写入参数正常。  
    解决办法：#{name}改为${ name}
+
+8. 报错：Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-13 13:39:44.888 ERROR 24624 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter 
+![error1](./screenshot/error1.png)
+
+解决办法：
+
+1.加入的依赖没载入，重新reload;
+
+2.去掉`<packaging>pom</packaging>`并重启;
