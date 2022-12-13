@@ -13,14 +13,14 @@ module.exports = {
         smoothScroll: true,
         nav:[ // 导航栏配置
           {text: 'Home', link: '/' },
-          {text: '前端相关', 
-          items:[
-              {text: 'Vuepress',link:'/frontend/vuepress/vuepress.md'},
-          ]},
           {text: '后端语言',items:[
             {text: 'Asp.Net Core',link:'/backend/aspnetcore/aspnetcore.md'},
             {text: 'Go',link:'/backend/go/go.md'},
             {text: 'Java',link:'/backend/java/java.md'}
+          ]},
+          {text: '前端相关', 
+          items:[
+              {text: 'Vuepress',link:'/frontend/vuepress/vuepress.md'},
           ]},
           {text: '八股文', 
           items: [ 
@@ -55,6 +55,10 @@ module.exports = {
             'aspnetcore',
             'book1',
             'workopt'
+          ],
+          '/backend/java/':[
+            'springcloud',
+            'java'
           ],
           '/backend/go/':[
             'go',
