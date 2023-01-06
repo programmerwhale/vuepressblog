@@ -58,7 +58,8 @@ module.exports = {
           ],
           '/backend/java/':[
             'springcloud',
-            'java'
+            'java',
+            'mybatis'
           ],
           '/backend/go/':[
             'go',

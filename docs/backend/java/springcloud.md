@@ -2,7 +2,10 @@
 # 项目搭建
 1. 建一个maven父工程  
    父工程用`<dependencyManagement>`管理依赖，用`<properities>`管理版本。
-> 参考链接：https://blog.csdn.net/m0_67266585/article/details/126553599
+> 参考链接：
+> 
+> https://blog.csdn.net/m0_67266585/article/details/126553599
+> 
 > https://blog.csdn.net/weixin_38007185/article/details/123490672?spm=1001.2014.3001.5502
 
 ## Nacos 部署
