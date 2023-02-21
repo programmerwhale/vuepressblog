@@ -16,7 +16,7 @@ module.exports = {
           {text: '后端语言',items:[
             {text: 'Asp.Net Core',link:'/backend/aspnetcore/aspnetcore.md'},
             {text: 'Go',link:'/backend/go/go.md'},
-            {text: 'Java',link:'/backend/java/java.md'}
+            {text: 'Java',link:'/backend/java/springcloud.md'}
           ]},
           {text: '前端相关', 
           items:[
@@ -30,7 +30,10 @@ module.exports = {
           { text: "Redis", link:"/csbase/redis/redis.md"},
           { text: "Linux", link:"/csbase/linux/linux.md"},
           ]},
-          {text: '算法题库', link: '/algorithm/leetcode.md'},
+          {text: '算法题库',
+          items:[
+            { text: "题单", link:"/algorithm/list/01.md"}
+          ]},
           {text: '工具', 
           items:[
               {text: 'Markdown',link:'/tools/markdown/markdown.md'},
@@ -47,6 +50,10 @@ module.exports = {
             'markdown',
             'bugs'
           ],
+          '/algorithm/list/':[
+            '01',
+            '02'
+          ],
           '/frontend/vuepress/':[
             'vuepress',
             'bugs'
@@ -58,6 +65,7 @@ module.exports = {
           ],
           '/backend/java/':[
             'springcloud',
+            'dtm',
             'java',
             'mybatis'
           ],
